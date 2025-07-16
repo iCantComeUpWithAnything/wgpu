@@ -32,6 +32,7 @@ pub fn map_built_in(
         "instance_index" => crate::BuiltIn::InstanceIndex,
         "view_index" => crate::BuiltIn::ViewIndex,
         "clip_distances" => crate::BuiltIn::ClipDistance,
+        "draw_index" => crate::BuiltIn::DrawID,
         // fragment
         "front_facing" => crate::BuiltIn::FrontFacing,
         "frag_depth" => crate::BuiltIn::FragDepth,
